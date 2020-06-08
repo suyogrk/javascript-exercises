@@ -1,10 +1,10 @@
-const removeFromArray = function(initialArray, ...itemToBeRemoved) {
+const removeFromArray = function (initialArray, ...itemToBeRemoved) {
 
-    const arrayRemoved = initialArray.filter((item) =>{        
+    const arrayRemoved = initialArray.filter((item) => {
         return !itemToBeRemoved.includes(item);
-    } )
+    })
 
-return arrayRemoved;
+    return arrayRemoved;
 }
 
 module.exports = removeFromArray
